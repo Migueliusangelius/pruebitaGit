@@ -1,0 +1,315 @@
+
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  
+
+}
+
+/*estilo de header*/
+
+
+h1{
+    position: relative;
+    text-align: center;
+    color: rgb(152, 94, 103);
+    font-size: 80px;
+    top: 130px;
+    font-family: 'Permanent Marker', cursive;
+    left: 130px;
+    
+
+}
+
+
+
+
+
+header{
+    background-color: #FEE3EC;
+    
+    
+    
+   
+}
+
+/*posicion del logo*/
+
+.imgLogo{
+    position: relative;
+    margin: 10px;
+    bottom: 70px;
+}
+
+
+/*estilos del menu*/
+
+.menu{
+    position: relative;
+    
+
+}
+
+.menu ul a{
+    list-style-type: none;
+    color:rgb(152, 94, 103); 
+    margin: 10px;
+    inset-block: ;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+
+    
+
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    color:rgb(152, 94, 103); 
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    
+
+}
+
+.menu ul li:hover{
+    background-color: #f66794;
+}
+
+/* estilos del sub menu*/
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.subMenu{
+    background-color: #da91a7;
+}
+
+/*estilo de article*/
+
+
+
+h2{
+    position: relative;
+    text-align: center;
+    color: rgb(152, 94, 103);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    top: 40px;
+    
+
+}
+
+.estiloParrafo{
+    position: relative;
+    color: rgb(152, 94, 103);
+    font-family: 'Permanent Marker', cursive;
+    top: 50px;
+    background-color: #F9C5D5;
+    
+   
+
+
+
+}
+
+article{
+    background-color: #F9C5D5;
+    
+    
+}
+
+/* fondo de body*/
+
+body{
+  
+   background-color: #f98eb0;
+   overflow-x: hidden;
+   
+
+   
+   
+    
+}
+
+
+/*estilo de footer*/
+
+
+
+h4{
+    position: relative;
+    top: 100px;
+    background-color: #F2789F;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+
+/*imagenes centrales*/
+
+.imagenCentral{
+    position: relative;
+    width: 1080px;
+    height: 1060px;
+    left: 6px; 
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    top: 50px;
+}
+.imagenCentral2{
+    position: relative;
+    width: 1080px;
+    height: 1060px;
+    left: 6px; 
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    top: 50px;
+}
+
+.imagenUno{
+    position: relative;
+    width: 1035px;
+    height: 1020px;
+    left: 10px;
+    top: 10px;
+}
+
+.imagenDos{
+    position: relative;
+    width: 1035px;
+    height: 1020px;
+    left: 10px;
+    top: 10px;
+    
+
+}
+
+/*estilo  y posicion de redes*/
+
+.posicionRedes{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(152, 94, 103);
+    z-index: 1;
+
+
+
+}
+
+.linkRed1{
+    text-decoration: none;
+    color: rgb(152, 94, 103);
+   
+}
+
+.linkRed2{
+    text-decoration: none;
+    color: rgb(152, 94, 103);
+
+}
+
+
+
+/*html galeria de productos*/
+
+
+    /*subtitulo*/
+
+ 
+
+
+
+.estiloFigcaption{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(152, 94, 103);
+    margin: auto;
+    padding: 5px;
+    width: min-content;
+    height: min-content;
+
+}
+
+.estiloFigcaption{
+    position: relative;
+    border: solid;
+    padding: 50px;
+    top: 60px;
+    font-size: 25px;
+
+}
+
+/*html lo que viene*/
+
+.estiloArticle{
+    position: relative;
+    padding: 80px;
+     
+}
+
+/*subtitulo*/
+
+.subLoqueviene{
+    position: relative;
+    top: 10;
+}
+
+
+/*html medios de pago y promos*/
+
+.estiloMedios{
+    position: relative;
+    font-size: 30px; 
+    padding: 50px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(152, 94, 103);
+    
+}
+
+.listaMedios{
+    position: relative;
+    list-style: none;
+    border: solid;
+    
+}
+
+
+/*html contacto*/
+
+.estiloContacto{
+    position: relative;
+    font-size: 30px;
+    padding: 100px;
+}
+
+.estiloForm{
+    background-color: cadetblue;
+    position: relative;
+    text-align: center;
+    border: solid;
+    font-family: 'Permanent Marker', cursive; 
+    color: rgb(152, 94, 103);
+   
+}
+
+
